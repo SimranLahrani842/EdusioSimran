@@ -1,0 +1,198 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+}
+
+.hero {
+    background: linear-gradient(rgba(66, 133, 244, 0.8), rgba(117, 165, 243, 0.8)), url('https://www.cambridge.org/elt/blog/wp-content/uploads/2021/04/GettyImages-1047699430-e1618396179464.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.welcome-banner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #4285f4;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-section {
+    background: linear-gradient(rgba(66, 133, 244, 0.8), rgba(117, 165, 243, 0.8)), url('https://www.cambridge.org/elt/blog/wp-content/uploads/2021/04/GettyImages-1047699430-e1618396179464.jpg');
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.course-filters {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #120b0b;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.course-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.course-card p {
+    color: #555;
+}
+
+.course-card button {
+    background-color: #4285f4;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.course-card button:hover {
+    background-color: #2a4b8d;
+}
+
+
+footer {
+    background: linear-gradient(rgba(66, 133, 244, 0.8), rgba(117, 165, 243, 0.8)), url('https://www.cambridge.org/elt/blog/wp-content/uploads/2021/04/GettyImages-1047699430-e1618396179464.jpg');
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+/* ... Previous CSS code ... */
+
+.login-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.login-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-form, .login-form {
+    width: 45%;
+}
+
+.registration-form h2, .login-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.registration-form label,
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input,
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ... Remaining CSS code ... */
+.login-section{
+    background: linear-gradient(rgba(66, 133, 244, 0.8), rgba(117, 165, 243, 0.8)), url('https://www.cambridge.org/elt/blog/wp-content/uploads/2021/04/GettyImages-1047699430-e1618396179464.jpg');
+}

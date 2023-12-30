@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edusio - Online Learning Platform</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Edusio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="welcome-banner">
+            <h1>Welcome to Edusio</h1>
+            <p>Your pathway to knowledge</p>
+            <a href="#courses" class="explore-button">Explore Courses</a>
+        </div>
+    </section>
+
+
+<section id="courses" class="courses-section">
+    <h2>Explore Our Courses</h2>
+
+    <div class="course-filters">
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="programming">Programming</option>
+            <option value="design">Design</option>
+            <option value="business">Business</option>
+        </select>
+
+        <label for="sort-by">Sort by:</label>
+        <select id="sort-by">
+            <option value="recent">Most Recent</option>
+            <option value="popular">Most Popular</option>
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+        </select>
+    </div>
+
+    <div id="course-listings" class="course-listings">
+        <!-- Course cards go here -->
+        <div class="course-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJsZmogYIoCLfS88y51LDhMbe4qOY2hhjxLw&usqp=CAU" width="320" height="320" alt="Course Image">
+            <h3>Course Title 1</h3>
+            <p>Description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button onclick="enrollCourse()">Enroll Now</button>
+        </div>
+
+        <div class="course-card">
+            <img src="https://miro.medium.com/v2/resize:fit:1080/1*wrAXojnVU7-uB931hMDLsA.png"width="300" height="300" alt="Course Image">
+            <h3>Course Title 2</h3>
+            <p>Description of another course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button onclick="enrollCourse()">Enroll Now</button>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        
+            <div class="about-container">
+                <h2>About Edusio</h2>
+                <p>Edusio is an online learning platform dedicated to providing high-quality education to learners worldwide. Our diverse range of courses is designed to meet the needs of learners at every level. Explore our courses and embark on a journey of continuous learning.</p>
+            </div>
+        
+
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Access to Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@edusio.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Oppurtunities</h3>
+                <ul>
+                    <li>Teacher</li>
+                    <li>Staff</li>
+                    <li>Student</li>
+                    <li>Assisant</li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 Edusio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

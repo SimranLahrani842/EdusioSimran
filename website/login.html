@@ -1,0 +1,54 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Edusio - Online Learning Platform</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Edusio</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- ... Previous HTML code ... -->
+
+<section id="login" class="login-section">
+    <div class="login-container">
+        <form id="registration-form" class="registration-form">
+            <h2>Register</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="registerUser()" class="btn">Register</button>
+        </form>
+
+        <form id="login-form" class="login-form">
+            <h2>Login</h2>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="login-username" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" required>
+
+            <button type="button" onclick="loginUser()" class="btn">Login</button>
+        </form>
+    </div>
+
+    <div id="message-display"></div>
+</section>
+
+<!-- ... Remaining HTML code ... -->
